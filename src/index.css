@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .insane{
+  color: yellow;
+ }
+.same{
+color: yellow;
+}
+.back{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\homeimg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.line1 {
+  background-color: yellow;
+ }
+ .line2 {
+  background-color: yellow;
+ }
+
+.nav-link {
+  color: white;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: yellow;
+  padding: 0px 15px;
+  color: black;
+
+
+}
+.nav-link[aria-current="page"] {
+  background-color: yellow;
+  color: black;
+
+
+}
+.btn1{
+  color: white;
+  border-color: yellow;
+  
+}
+.btn2{
+  background-color: yellow;
+
+  border-color: yellow;
+}
+.btn1:hover{
+  background-color: yellow;
+  color: black;
+  
+  
+}
+.btn2:hover{
+  color: white;
+  border-color: yellow;
+  background-color:transparent;
+  
+}
+.homeimg2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\home2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.text1{
+  font-family: 'PT Sans', sans-serif;
+}
+.contactimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\contact.jpeg");
+  background-position: center;
+  height: 72vh;
+  background-size: cover;
+}
+.cont2{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.aboutimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\about.jpeg");
+  height: 72vh;
+  background-position: center;
+  background-size: cover;
+
+}
+.aboutmain{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\about.jpeg");
+  height: 72vh;
+}
+.aboutimg2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\about3.jpeg");
+ 
+  background-size: cover;
+}
+.appointment{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\appointment.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.classesimg{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\classes.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 72vh;
+}
+.trainerimg{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\trainers.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 72vh;
+
+}
+.pricing{
+  height: 580px;
+  width: 273px;
+  border-width: 3px ;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing:hover{
+ border-color: yellow;
+ transform: translateY(-15px);
+ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+
+}
+.choose3{
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  margin-top: 90px;
+}
+.choose3:hover{
+  background-color: black;
+  color: white;
+}
+.choose1{
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  margin-top: 210px;
+}
+.choose1:hover{
+  background-color: black;
+  color: white;
+}
+.choose2{
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  margin-top: 170px;
+}
+.choose2:hover{
+  background-color: black;
+  color: white;
+}
+.choose4{
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  margin-top: 50px;
+}
+.choose4:hover{
+  background-color: black;
+  color: white;
+}
+.pricing2{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\pricing.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+
+}
+
+.pricing-heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 200px;
+}
+
+.pricing-card {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #ffeb3b; /* Yellow border */
+  border-radius: 20px;
+  width: 250px;
+  padding: 40px 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.pricing-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.plan-button {
+  background-color: #ffeb3b;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .pricing-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
