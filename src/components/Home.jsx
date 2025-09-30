@@ -9,7 +9,16 @@ import men from "./images/mard.jpg"
 import { hover } from "@testing-library/user-event/dist/hover";
 import FormModal from "./FormModal";
 import { useState } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Home() {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 }); // एनिमेशन 1 सेकंड का
+      }, []);
+
     const [modalOpen, setModalOpen] = useState(false);
     const [modalType, setModalType] = useState("free"); // "free" या "join"
   
@@ -46,6 +55,7 @@ function Home() {
            </div>
         </div>
         <div className=" h-screen bg-neutral-900 text-white text-center ">
+            <div data-aos="fade-up">
          <h1 className="relative top-12 text-lg tracking-widest ">EXPERIENCED & INTERNATIONALLY CERTIFIED PERSONAL TRAINERS</h1>
          <h1 className=" mt-16  italic h-10 text-5xl" style={{color:"yellow"}}>THE BEST FITNESS EXPERIENCE</h1>
          <h1 className="mt-8">We're committed to bringing you the best workout experience.</h1>
@@ -60,9 +70,11 @@ function Home() {
          <h1 className="ml-32">Open 7 Days A Week</h1>
          <h1 className="ml-32">Complimentary Valet Parking</h1>
          <h1 className="ml-28">Clean, Comfortable and Safe</h1>
+         </div>
         </div>
         </div>
         <div className="homeimg2 ">
+            <div data-aos="fade-up">
          <h1 className="text-4xl text-white font-bold relative top-40 ml-12 scale-y-[1.5] font-sans">"During the hard times, it's important to <br />
              focus on the things you can change in that <br />
              moment instead of what you should have or <br />
@@ -71,9 +83,10 @@ function Home() {
              <h1 className="text-white mt-4">- Annie Thorisdottir,</h1>
              <h1 className="text-white mt-4" style={{color:"yellow"}}>X GYM Athlete</h1>
              </div>
+             </div>
         </div>
         <div className="h-screen bg-neutral-900">
-            <div className="flex ">
+            <div data-aos="fade-up" className="flex ">
             <div className=" mt-16 relative left-24">
             <h1 className="text-white">WHO WE ARE</h1>
             <h1 className="text-4xl font-bold text-white mt-3" style={{color:""}} >Building Fitness is Building Your<br/>
@@ -120,6 +133,7 @@ function Home() {
         </div>
         </div>
         <div className="pricing2 bg-black" style={{height:"870px"}}>
+            <div data-aos="fade-up">
             <h1 className="text-white text-5xl font-bold text-center relative top-20">CHOOSE YOUR <span style={{backgroundColor:"yellow",color:"black"}}>PRICING</span> PLAN</h1>
             <div className="ml-2 mt-2 flex gap-10">
                 <div className="pricing text-white px-5 border border-white  ml-16  mt-40">
@@ -172,6 +186,7 @@ function Home() {
 						</ul>
                         <button className="choose4 border  font-semibold mt-12 ml-7 text-lg px-8 py-4">Choose Plan</button>
             </div>                   
+            </div>
             </div>
         </div>
         </>

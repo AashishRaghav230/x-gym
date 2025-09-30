@@ -8,9 +8,15 @@ import circuittraining from "./images/circuittraining.jpg"
 import zumba from "./images/zumba.jpg"
 import strengthclasses from "./images/strengthclasses.png"
 import outdoortraining from "./images/outdoortraining.webp"
-function Classes() {
-    return (
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+function Classes() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // एनिमेशन 1 सेकंड का
+  }, []);
+    return (
         <>
     <div>
          <div className="classesimg">
@@ -23,8 +29,11 @@ function Classes() {
               </div>
          </div>
          <div className="bg-neutral-900 " style={{height:"700px"}}>
+              <div data-aos="fade-up">
               <h1 className="text-center relative top-12 text-3xl" style={{color:"yellow"}}>X GYM</h1>
               <h1 className=" text-white text-center relative top-12 mt-1 text-lg italic  ">Take care of your body. It's the only place you have to live.</h1>
+              </div>
+              <div data-aos="fade-up">
               <div className="text-white mt-20 flex gap-96 ml-64 text-xl">
                 <h1 className="relative left-4 top-1 tracking-wider">GYM FITNESS</h1>
                 <h1 className="relative left-36 top-1 tracking-wide">INDOOR CYCLING</h1>
@@ -41,8 +50,10 @@ function Classes() {
                      carries the risk of significant injury, especially head injury. involves using a special as<br/>
                      stationary exercise bicycle with a weighted flywheel in a classroom setting.</h1>
               </div>
+              </div>
          </div>
          <div className="bg-neutral-900" style={{height:"600px"}}>
+             <div data-aos="fade-up">
              <div className="text-white  flex gap-96 ml-64 text-xl">
                 <h1 className="relative left-4 top-12 tracking-wider">POWER YOGA</h1>
                 <h1 className="relative left-36 top-12 tracking-wide">CARDIO FITNESS</h1>
@@ -59,8 +70,10 @@ function Classes() {
                     carries the risk of significant injury, especially head injury. involves using a special as<br/>
                     stationary exercise bicycle with a weighted flywheel in a classroom setting.</h1>
               </div>
+              </div>
          </div> 
          <div className="bg-neutral-900" style={{height:"600px"}}>
+             <div data-aos="fade-up">
              <div className="text-white  flex gap-96 ml-64 text-xl">
                 <h1 className="relative left-1 top-12 tracking-wider">CIRCUIT TRAINING</h1>
                 <h1 className="relative left-36 top-12 tracking-wide">ZUMBA</h1>
@@ -77,8 +90,10 @@ function Classes() {
                     carries the risk of significant injury, especially head injury. involves using a special as<br/>
                     stationary exercise bicycle with a weighted flywheel in a classroom setting.</h1>
               </div>
+              </div>
          </div> 
          <div className="bg-neutral-900" style={{height:"650px"}}>
+             <div data-aos="fade-up">
              <div className="text-white  flex gap-96 ml-60 text-xl">
                 <h1 className="relative left-1 top-12 tracking-wider">STRENGTH CLASSES</h1>
                 <h1 className="relative left-24 top-12 tracking-wide">OUTDOOR TRAINING</h1>
@@ -94,6 +109,7 @@ function Classes() {
                 <h1>Cycling is a great form of exercise as well as a practical way to get around, but it also<br/>
                     carries the risk of significant injury, especially head injury. involves using a special as<br/>
                     stationary exercise bicycle with a weighted flywheel in a classroom setting.</h1>
+              </div>
               </div>
          </div> 
     </div>

@@ -4,8 +4,14 @@ import trainer1 from "./images/trainer1.jpeg"
 import trainer2 from "./images/trainer2.jpeg"
 import trainer3 from "./images/trainer3.jpeg"
 import trainer4 from "./images/trainer4.jpeg"
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Trainers() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 }); // एनिमेशन 1 सेकंड का
+      }, []);
     return ( 
         <>
         <div>
@@ -19,9 +25,11 @@ function Trainers() {
                 </div>
             </div>
             <div className="bg-neutral-900" style={{height:"920px"}}>
+                <div data-aos="fade-up">
                 <h1 className="text-center text-3xl relative top-12" style={{color:"yellow",}}>MEET OUR TRAINERS</h1>
                 <h1 className="text-white text-center mt-1 text-lg italic relative top-12">Expert guidance and personalized support to help you succeed.</h1>
-                <div className="flex gap-28">
+                </div>
+                <div data-aos="fade-up" className="flex gap-28">
                     <div className="mt-32 ml-24">
                         <h1 className="text-white text-4xl font-bold">Jason Tran</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
@@ -47,7 +55,7 @@ function Trainers() {
                 </div>
             </div>
                 <div className="flex gap-28 bg-neutral-900" style={{height:"700px"}}>
-                    <div className=" ml-24">
+                    <div data-aos="fade-up" className="  ml-24">
                         <h1 className="text-white text-4xl font-bold">Melody Scharff</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 text-lg">
@@ -68,11 +76,11 @@ function Trainers() {
                              <button className="btn2 mt-8  border  px-4 py-2 font-semibold">BOOK MELODY CLASS</button>
                     </div>
                     <div>
-                       <img className="" src={trainer2} style={{height:"500px",width:"540px"}}/>
+                       <img data-aos="fade-up" className="" src={trainer2} style={{height:"500px",width:"540px"}}/>
                     </div>
                 </div>
                 <div className="flex gap-28 bg-neutral-900" style={{height:"700px"}}>
-                    <div className=" ml-24">
+                    <div data-aos="fade-up" className=" ml-24">
                         <h1 className="text-white text-4xl font-bold">Lucas Donovan</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 text-lg">After eight years in the finance industry, Jason left his desk job<br/>
@@ -92,11 +100,11 @@ function Trainers() {
                              <button className="btn2 mt-8  border  px-4 py-2 font-semibold">BOOK LUCAS CLASS</button>
                     </div>
                     <div>
-                       <img className="" src={trainer3} style={{height:"500px",width:"540px"}}/>
+                       <img data-aos="fade-up" className="" src={trainer3} style={{height:"500px",width:"540px"}}/>
                     </div>
                 </div>
                 <div className="flex gap-28 bg-neutral-900" style={{height:"650px"}}>
-                    <div className=" ml-24">
+                    <div data-aos="fade-up" className=" ml-24">
                         <h1 className="text-white text-4xl font-bold">Olivia Parker</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 text-lg">
@@ -116,7 +124,7 @@ function Trainers() {
                             PROnatal Fitness Pre and Post Natal, TRX Level 1</h1><button className=" btn2 mt-8  border  px-4 py-2 font-semibold">BOOK OLIVIA CLASS</button>
                     </div>
                     <div>
-                       <img className="" src={trainer4} style={{height:"500px",width:"540px"}}/>
+                       <img data-aos="fade-up" className="" src={trainer4} style={{height:"500px",width:"540px"}}/>
                     </div>
                 </div>
         </div>
