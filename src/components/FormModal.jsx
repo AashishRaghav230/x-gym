@@ -39,11 +39,12 @@ const FormModal = ({ isOpen, onClose, type }) => {
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+      <div className="modal-content bg-neutral-900 text-white" onClick={(e) => e.stopPropagation()}>
         <h2>{type === "free" ? "Free Trial Form" : "Join Now Form"}</h2>
         <form onSubmit={handleSubmit}>
           <label>Name:</label>
           <input
+           className="text-black"
             type="text"
             name="name"
             placeholder="Your Name"
@@ -53,6 +54,7 @@ const FormModal = ({ isOpen, onClose, type }) => {
 
           <label>Email:</label>
           <input
+            className="text-black"
             type="email"
             name="email"
             placeholder="Your Email"
@@ -62,6 +64,7 @@ const FormModal = ({ isOpen, onClose, type }) => {
 
           <label>Phone:</label>
           <input
+            className="text-black"
             type="tel"
             name="phone"
             placeholder="Your Phone"
@@ -73,6 +76,7 @@ const FormModal = ({ isOpen, onClose, type }) => {
             <>
               <label htmlFor="service">Select a Service:</label>
               <select
+                className="text-black py-2 rounded-md"
                 id="service"
                 name="service"
                 value={formData.service}
@@ -93,6 +97,7 @@ const FormModal = ({ isOpen, onClose, type }) => {
             <>
               <label htmlFor="membership">Membership Type:</label>
               <select
+                className="text-black py-2 rounded-md"
                 id="membership"
                 name="membership"
                 value={formData.membership}
@@ -106,6 +111,7 @@ const FormModal = ({ isOpen, onClose, type }) => {
               </select>
               <label htmlFor="service">Select a Service:</label>
               <select
+                className="text-black py-2 rounded-md"
                 id="service"
                 name="service"
                 value={formData.service}

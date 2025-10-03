@@ -32,24 +32,24 @@ function Home() {
         <>
         <div className="">
            <div className="back ">
-            <div className="relative top-52">
-            <div className="flex ml-96 text-7xl  ">
-           <h1 className="text-white ml-12">TRAIN </h1>
-           <h1 className="insane ml-10" >INSANE</h1>
+            <div className="relative md:top-52 top-56">
+            <div className="flex md:ml-96 md:text-7xl ml-11 text-3xl ">
+           <h1 className="text-white md:ml-12  ">TRAIN </h1>
+           <h1 className="insane md:ml-10 ml-4" >INSANE</h1>
            </div>
-           <div className="flex items-center max-w-3xl gap-3 ml-72 ">
-           <div className="line1 flex-1 h-10  mt-4  "></div>
-           <span className=" text-white mt-4 text-4xl">OR</span>
-           <div className="line2 flex-1 h-10 mt-4 "></div>
+           <div className="flex items-center md:max-w-3xl gap-3 md:ml-72 ml-6">
+           <div className="line1 md:flex-1 md:h-10  md:mt-4 h-4 w-24 mt-2 "></div>
+           <span className=" text-white md:mt-4 md:text-4xl text-xl mt-2">OR</span>
+           <div className="line2 md:flex-1 md:h-10 md:mt-4 h-4 w-24 mt-2"></div>
            </div>
-           <div className="flex ml-80 text-7xl mt-4 relative ">
-           <h1 className="text-white ml-12">REMAIN THE </h1>
-           <h1 className="same ml-7">SAME</h1>
+           <div className="flex md:ml-80 md:text-7xl md:mt-4 text-3xl ml-5 mt-2">
+           <h1 className="text-white md:ml-12">REMAIN THE </h1>
+           <h1 className="same md:ml-7 ml-2">SAME</h1>
            </div>
            
-           <div className="ml-28 mt-16">
-           <button className="btn1 border px-4 py-2 ml-96 font-semibold" onClick={() => openModal("free")}>TRY US FREE</button>
-           <button className="btn2 ml-28 border  px-4 py-2 font-semibold" onClick={() => openModal("join")}>JOIN NOW</button>
+           <div className="md:ml-28 md:mt-16 mt-20">
+           <button className="btn1 border md:px-4 md:py-2 px-3 py-1 md:ml-96 font-semibold relative left-20 ml-2 md:left-0 " onClick={() => openModal("free")}>TRY US FREE</button>
+           <button className="btn2 md:ml-28 border  md:px-5 md:py-2 px-4 py-1 font-semibold relative top-20 md:top-0 md:right-0 right-9 " onClick={() => openModal("join")}>JOIN NOW</button>
            </div>
            <FormModal isOpen={modalOpen} onClose={closeModal} type={modalType} />
            </div>
@@ -149,7 +149,7 @@ function Home() {
                         <button className="choose1  border  font-semibold mt-52 ml-7 text-lg px-8 py-4">Choose Plan</button>
             </div> 
             <div className="pricing text-white px-5 border border-white  mt-40" >
-                    <h1 className="text-5xl font-bold text-center mt-16">$10</h1>
+                    <h1 className="text-5xl font-bold text-center mt-16">$25</h1>
 						<p className="text-center mt-3 text-lg">/month</p>
 						<ul className=" mt-16">
 							<li className="text-center text-lg">Gym</li>
@@ -161,7 +161,7 @@ function Home() {
                         <button className="choose2 border  font-semibold  ml-7 text-lg px-8 py-4">Choose Plan</button>
             </div>          
             <div className="pricing text-white px-5 border border-white  mt-40" >
-                    <h1 className="text-5xl font-bold text-center mt-16">$10</h1>
+                    <h1 className="text-5xl font-bold text-center mt-16">$30</h1>
 						<p className="text-center mt-3 text-lg">/month</p>
 						<ul className=" mt-16">
 							<li className="text-center text-lg">Gym</li>
@@ -173,7 +173,7 @@ function Home() {
                         <button className="choose3 hover:bg-black border font-semibold  ml-7 text-lg px-8 py-4">Choose Plan</button>
             </div>          
             <div className="pricing text-white px-5 border border-white  mt-40">
-                    <h1 className="text-5xl font-bold text-center mt-16">$10</h1>
+                    <h1 className="text-5xl font-bold text-center mt-16">$50</h1>
 						<p className="text-center mt-3 text-lg">/month</p>
 						<ul className=" mt-16">
 							<li className="text-center text-lg">Gym</li>

@@ -27,7 +27,7 @@ function Aboutus() {
     <div>
           <div className="aboutimg">
               <div className="relative top-52 ml-96">
-              <h1 className="cont2 text-white text-8xl ml-36">ABOUT US</h1>
+              <h1 className="cont2 text-white text-8xl ml-36 ">ABOUT US</h1>
               </div>
               <div className="mt-52 ml-52 flex gap-1">
               <IoHomeSharp className="text-white relative left-96 text-lg mt-1 " /><h1 style={{}} className=" text-white font-semibold ml-96 text-lg " >Home ></h1>

@@ -1,28 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HiMenu, HiX } from "react-icons/hi"; // icons for hamburger
+
 function Header() {
-    return ( 
-        <>
-   <header className="absolute  w-full z-20 flex ">
-    <div className=" flex pb-7">
-        <div className="flex ml-10 ">
-            <h1 className="text-4xl font-semibold mt-5 p-3 pl-4 pr-4" style={{backgroundColor:"yellow"}}>X</h1>
-            <h1 className="ml-2 text-4xl font-semibold mt-8 text-white">G Y M</h1>
-        </div>
-             
-    <div className="ml-64 ">
-        <ul className="flex ml-40 font-semibold mt-10 text-xl ">
-            <li><NavLink to="/" className="nav-link">Home</NavLink></li>
-            <li className=" ml-12   "><NavLink to="/aboutus" className="nav-link">About Us</NavLink></li>
-            <li className=" ml-12  "><NavLink to="/classes" className="nav-link">Classes</NavLink></li>
-            <li className="trainer ml-12  "><NavLink to="/trainers" className="nav-link">Trainers</NavLink></li>
-            <li className="contact ml-12  "><NavLink to="/contact" className="nav-link">Contact</NavLink></li>
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <header className="w-full z-20 bg-transparent absolute">
+      <div className="flex justify-between mt-4 items-center px-6 py-4 md:px-10">
+        <h1 className="md:text-4xl text-3xl font-semibold text-white">
+          <span className="text-black md:px-4 md:py-2 px-3 py-1"style={{ backgroundColor: "yellow" }}>X</span> G Y M
+        </h1>
+        <ul className="hidden md:flex space-x-10 text-xl font-semibold mt-1 text-white">
+          <li>
+            <NavLink to="/" className="nav-link">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/aboutus" className="nav-link">
+              About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/classes" className="nav-link">
+              Classes
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/trainers" className="nav-link">
+              Trainers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" className="nav-link">
+              Contact
+            </NavLink>
+          </li>
         </ul>
-    </div> 
-    </div>
+        <div className="md:hidden text-white text-3xl" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <HiX /> : <HiMenu />}
+        </div>
+      </div>
+      {menuOpen && (
+        <ul className="md:hidden flex flex-col items-center bg-black text-white text-lg font-semibold space-y-4 py-4">
+          <li>
+            <NavLink to="/" onClick={() => setMenuOpen(false)} className="nav-link">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/aboutus" onClick={() => setMenuOpen(false)} className="nav-link">
+              About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/classes" onClick={() => setMenuOpen(false)} className="nav-link">
+              Classes
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/trainers" onClick={() => setMenuOpen(false)} className="nav-link">
+              Trainers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" onClick={() => setMenuOpen(false)} className="nav-link">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      )}
     </header>
- </>
-     );
+  );
 }
 
 export default Header;

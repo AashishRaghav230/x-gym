@@ -13,7 +13,7 @@
   }
   
   .modal-content {
-    background-color: #fff;
+   
     padding: 30px;
     border-radius: 15px;
     width: 550px;
@@ -36,7 +36,7 @@
   }
   
   .modal-content input {
-    padding: 10px;
+    padding: 8px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -45,8 +45,8 @@
   .modal-content button[type="submit"] {
     margin-top: 20px;
     padding: 12px;
-    background-color: #000;
-    color: #fff;
+    background-color: yellow;
+    color: black;
     border: none;
     font-weight: bold;
     border-radius: 8px;
@@ -67,11 +67,10 @@
     cursor: pointer;
   }
   .modal-content h2 {
-    font-size: 2rem;      /* Title बड़ा करना */
-    font-weight: 900;      /* Bold */
+    font-size: 2rem;      
+    font-weight: 900;     
     text-align: center;
-    margin-bottom: 20px;
-      /* Optional: थोड़ा फैलाने के लिए */
-    color: #000;           /* Title color */
+    margin-bottom: 7px;
+    color: white;          
   }
   
