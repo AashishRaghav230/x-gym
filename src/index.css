@@ -66,7 +66,6 @@ color: yellow;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\home2.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 .text1{
   font-family: 'PT Sans', sans-serif;
@@ -172,7 +171,6 @@ color: yellow;
   background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\pricing.jpeg");
   background-size: cover;
   background-position: center;
-  height: 150vh;
 
 }
 
