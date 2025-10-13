@@ -6,7 +6,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full z-20 bg-transparent absolute">
+    <header className=" z-20 bg-transparent absolute w-screen overflow-x-hidden m-0 p-0">
       <div className="flex justify-between mt-4 items-center px-6 py-4 md:px-10">
         <h1 className="md:text-4xl text-3xl font-semibold text-white">
           <span className="text-black md:px-4 md:py-2 px-3 py-1"style={{ backgroundColor: "yellow" }}>X</span> G Y M
