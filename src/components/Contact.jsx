@@ -3,11 +3,12 @@ import { IoHomeSharp } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+
 function Contact() {
     return ( 
     <>
-    <div>
-        <div className="contactimg">   
+    <div className="w-screen overflow-x-hidden m-0 p-0">
+        <div className="contactimg ">   
         <div className="relative top-52 ml-96">
          <h1 className="cont2 text-white text-8xl ml-32">CONTACT US</h1>
          </div>

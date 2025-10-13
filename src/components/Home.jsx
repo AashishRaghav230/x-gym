@@ -30,7 +30,7 @@ function Home() {
     const closeModal = () => setModalOpen(false);
     return ( 
         <>
-        <div className="">
+        <div className="w-screen overflow-x-hidden m-0 p-0">
            <div className="back ">
             <div className="relative md:top-52 top-56">
             <div className="flex md:ml-96 md:text-7xl ml-20 text-3xl ">

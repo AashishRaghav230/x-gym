@@ -14,7 +14,7 @@ function Trainers() {
       }, []);
     return ( 
         <>
-        <div>
+        <div className="w-screen overflow-x-hidden m-0 p-0">
             <div className="trainerimg">
                 <div className="relative top-52 ml-96">
                 <h1 className="cont2 text-white text-8xl ml-40 ">TRAINERS</h1>
