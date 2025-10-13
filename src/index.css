@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body, html {
   overflow-x: hidden;
 }
+
 
  .insane{
   color: yellow;
@@ -104,7 +104,7 @@ color: yellow;
   background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\appointment.jpeg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+
 }
 .classesimg{
   background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),url("C:\Users\1\Desktop\react js\Projects\gym\src\components\images\classes.jpeg");
