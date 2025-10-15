@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 function Contact() {
     return ( 
     <>
-    <div className="w-screen overflow-x-hidden m-0 p-0">
+    <div>
         <div className="contactimg ">   
         <div className="relative top-52 ml-96">
          <h1 className="cont2 text-white text-8xl ml-32">CONTACT US</h1>

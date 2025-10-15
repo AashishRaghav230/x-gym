@@ -24,7 +24,7 @@ const progressData = [
 function Aboutus() {
     return ( 
         <>
-    <div className="w-screen overflow-x-hidden m-0 p-0">
+    <div>
           <div className="aboutimg">
               <div className="relative top-52 md:ml-96 ml-1">
               <h1 className="cont2 text-white md:text-8xl text-7xl md:ml-36 ml-20 ">ABOUT US</h1>

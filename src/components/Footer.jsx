@@ -12,7 +12,7 @@ import free from "./images/free.jpeg"
 function Footer() {
     return ( 
         <>
-        <div className="w-screen overflow-x-hidden m-0 p-0">
+        <div>
        <div className=" bg-neutral-900 md:h-32 h-[400px] " style={{backgroundImage:`url(${free})`, backgroundSize:"cover",backgroundPosition:"center"}}>
         <div className="md:flex gap-2 md:text-6xl text-5xl font-extrabold md:ml-32 ml-36 relative top-5">
             <h1 className="text-white">FREE</h1>
