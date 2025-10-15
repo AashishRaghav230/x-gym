@@ -30,7 +30,7 @@ function Trainers() {
                 <h1 className="text-white text-center mt-1 md:text-lg italic relative top-12">Expert guidance and personalized support to help you succeed.</h1>
                 </div>
                 <div data-aos="fade-up" className="md:flex gap-28">
-                    <div className="mt-32 md:ml-24 ml-12 ">
+                    <div className="mt-32 md:ml-24 ml-9 ">
                         <h1 className="text-white text-4xl font-bold">Jason Tran</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 md:text-lg text-xl">After eight years in the finance industry, Jason left his desk job<br/>
@@ -55,7 +55,7 @@ function Trainers() {
                 </div>
             </div>
                 <div className="md:flex gap-28 bg-neutral-900 h-[1400px] md:h-[700px]">
-                    <div data-aos="fade-up" className="  md:ml-24 ml-12">
+                    <div data-aos="fade-up" className="  md:ml-24 ml-9">
                         <h1 className="text-white text-4xl font-bold">Melody Scharff</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 md:text-lg text-xl ">
@@ -80,7 +80,7 @@ function Trainers() {
                     </div>
                 </div>
                 <div className="md:flex gap-28 bg-neutral-900 h-[1400px] md:h-[700px]">
-                    <div data-aos="fade-up" className=" md:ml-24 ml-12 ">
+                    <div data-aos="fade-up" className=" md:ml-24 ml-9 ">
                         <h1 className="text-white text-4xl font-bold">Lucas Donovan</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 md:text-lg text-xl ">After eight years in the finance industry, Jason left his desk job<br/>
@@ -104,7 +104,7 @@ function Trainers() {
                     </div>
                 </div>
                 <div className="md:flex gap-28 bg-neutral-900 md:h-[700px] h-[1400px] ">
-                    <div data-aos="fade-up" className="md:ml-24 ml-12">
+                    <div data-aos="fade-up" className="md:ml-24 ml-9">
                         <h1  className="text-white text-4xl font-bold">Olivia Parker</h1>
                         <span class="absolute w-20 h-1  mt-5" style={{backgroundColor:"yellow"}}></span>
                         <h1 className="text-white mt-10 md:text-lg text-xl">
