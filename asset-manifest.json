@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/x-gym/static/css/main.4335ef9e.css",
-    "main.js": "/x-gym/static/js/main.36c892bf.js",
-    "static/js/453.8c22cff4.chunk.js": "/x-gym/static/js/453.8c22cff4.chunk.js",
+    "main.css": "/x-gym/static/css/main.fb425fe7.css",
+    "main.js": "/x-gym/static/js/main.b2ca8e8d.js",
+    "static/js/453.d4169ddd.chunk.js": "/x-gym/static/js/453.d4169ddd.chunk.js",
     "static/media/mard.jpg": "/x-gym/static/media/mard.dc832772bfb6a7920d4f.jpg",
     "static/media/strengthclasses.png": "/x-gym/static/media/strengthclasses.2e09d25af64ae29e69df.png",
     "static/media/circuittraining.jpg": "/x-gym/static/media/circuittraining.dc8fd1e6dc9d1bed7fa6.jpg",
@@ -33,12 +33,12 @@
     "static/media/about3.jpeg": "/x-gym/static/media/about3.30aa0cbbb77d18419ea8.jpeg",
     "static/media/free.jpeg": "/x-gym/static/media/free.80a1bcf7f37e472da432.jpeg",
     "index.html": "/x-gym/index.html",
-    "main.4335ef9e.css.map": "/x-gym/static/css/main.4335ef9e.css.map",
-    "main.36c892bf.js.map": "/x-gym/static/js/main.36c892bf.js.map",
-    "453.8c22cff4.chunk.js.map": "/x-gym/static/js/453.8c22cff4.chunk.js.map"
+    "main.fb425fe7.css.map": "/x-gym/static/css/main.fb425fe7.css.map",
+    "main.b2ca8e8d.js.map": "/x-gym/static/js/main.b2ca8e8d.js.map",
+    "453.d4169ddd.chunk.js.map": "/x-gym/static/js/453.d4169ddd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4335ef9e.css",
-    "static/js/main.36c892bf.js"
+    "static/css/main.fb425fe7.css",
+    "static/js/main.b2ca8e8d.js"
   ]
 }
