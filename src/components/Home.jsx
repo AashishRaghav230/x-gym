@@ -80,15 +80,12 @@ function Home() {
         </div>
         <div className="homeimg2 md:h-screen h-[450px]">
             <div data-aos="fade-up">
-         {/* <h1 className="md:text-4xl text-3xl text-white font-bold relative top-40 md:ml-12 ml-4 scale-y-[1.5] font-sans">"During the hard times, it's important to <br />
-             focus on the things you can change in that <br />
-             moment instead of what you should have or <br />
-             could have done differently."</h1> */}
-             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:ml-12 ">"During hard times, build your inner powers</h1>
-             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 mt-2 md:ml-12 ml-2">Change what you can today, not tomorrow</h1>
-             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 md:ml-12 mt-2 ml-2">Forget what you could have done before &</h1>
-             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 md:ml-12 mt-2 ml-2">Grow each day & make your strength soar."</h1>
-             <div className="flex md:mt-[250px] mt-[180px] md:ml-12 ml-5 gap-2 md:text-2xl text-xl font-semibold font-sans">
+ 
+             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:ml-12 ml-4 ">"During hard times, build your inner powers</h1>
+             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 mt-2 md:ml-12 ml-5">Change what you can today, not tomorrow</h1>
+             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 md:ml-12 mt-2 ml-5">Forget what you could have done before &</h1>
+             <h1 className="text-white md:text-4xl text-lg font-sans font-bold scale-y-[1.5] relative md:top-32 top-28 md:mt-5 md:ml-12 mt-2 ml-5">Grow each day & make your strength soar."</h1>
+             <div className="flex md:mt-[250px] mt-[180px] md:ml-12 ml-8 gap-2 md:text-2xl text-xl font-semibold font-sans">
              <h1 className="text-white mt-4">- Annie Thorisdottir,</h1>
              <h1 className="text-white mt-4" style={{color:"yellow"}}>X GYM Athlete</h1>
              </div>
